@@ -33,6 +33,6 @@ def fields_view(request : HttpRequest):
 
     return render( request, "main/fields.html")
 
-def extra_view(request : HttpRequest):
+def techInSaudi_view(request : HttpRequest):
 
-    return render( request, "main/extra.html")
+    return render( request, "main/techInSaudi.html")
