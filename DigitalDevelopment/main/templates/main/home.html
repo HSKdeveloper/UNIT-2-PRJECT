@@ -12,18 +12,13 @@
 <!-- Page Content -->
 {% block content %} 
    <section class="home-header">
-
-   </section>
-   <section class="home-section-one">
       <h1>
          التقنية في عالمنا
       </h1>
+   </section>
+   <section class="home-section-one">
+
       <div class="intro-title">
-         <!--
-            <h2>
-               ما هي التقنية ؟!!
-            </h2>         
-         -->
          <p>
             التقنية هي أكثر من مجرد أجهزة و هواتف ذكية! <br>
             إنها المحرك الأساسي الذي يعيد تشكيل عالمنا اليوم. هي تطبيق المعرفة العلمية لحل المشكلات العملية بدءًا من التواصل الفوري 
@@ -39,23 +34,29 @@
          تأثير التقنية على محاور التنمية
       </h1>
       <div class="section-two-content">
-         <div class="card">
-            <h2>
-               التطور الإقتصادي
-            </h2>
-         </div>
-         <div class="card">
-            <h2>
-               التطور الثقافي و الترفيهي
-            </h2>
-         </div>
-         <div class="card">
-            <h2>
-               التطور التعليمي
-            </h2>
-         </div>
+         <a href="{% url 'main:impact_view' %}" style="text-decoration: none;">
+            <div class="card">
+               <h2>
+                  التطور الإقتصادي
+               </h2>
+            </div>            
+         </a>
+         <a href="" style="text-decoration: none;">
+            <div class="card">
+               <h2>
+                  التطور الثقافي و الترفيهي
+               </h2>
+            </div>            
+         </a>
+         <a href="" style="text-decoration: none;">
+            <div class="card">
+               <h2>
+                  التطور التعليمي
+               </h2>
+            </div>            
+         </a>
+
       </div>
-      <a href="{% url 'main:impact_view' %}" class="btn"> المزيد </a>
    </section>
 
    <section class="home-section-three">
@@ -63,25 +64,61 @@
          مجالات تطور التقنية في المملكة
       </h1>
       <div class="section-three-content">
-         <div class="card">
-            <h2>
-               الذكاء الاصطناعي و علوم البيانات
-            </h2>
+         <div class="card" style="--clr:#009688">
+            <div class="img-box">
+               <img src="" alt="">
+            </div>
+            <div class="card-content">
+               <h2>
+                  الذكاء الاصطناعي و علوم البيانات
+               </h2>
+               <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veritatis ea ratione ipsa labore consectetur velit ipsam ab cum possimus iste fugiat sed cumque quia, temporibus minus. Voluptatibus, ab perferendis?
+               </p>
+            </div>
+
          </div>
          <div class="card">
-            <h2>
-               الأمن السيبراني
-            </h2>
+            <div class="img-box">
+               <img src="" alt="">
+            </div>
+            <div class="card-content">
+               <h2>
+                  الأمن السيبراني
+               </h2>    
+               <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veritatis ea ratione ipsa labore consectetur velit ipsam ab cum possimus iste fugiat sed cumque quia, temporibus minus. Voluptatibus, ab perferendis?
+               </p>           
+            </div>
+
          </div>
          <div class="card">
-            <h2>
-               التقنية المالية
-            </h2>
+            <div class="img-box">
+               <img src="" alt="">
+            </div>
+            <div class="card-content">
+               <h2>
+                  التقنية المالية
+               </h2>  
+               <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veritatis ea ratione ipsa labore consectetur velit ipsam ab cum possimus iste fugiat sed cumque quia, temporibus minus. Voluptatibus, ab perferendis?
+               </p>             
+            </div>
+
          </div>
          <div class="card">
-            <h2>
-               المدن الذكية
-            </h2>
+            <div class="img-box">
+               <img src="" alt="">
+            </div>
+            <div class="card-content">
+               <h2>
+                  المدن الذكية
+               </h2>         
+               <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat veritatis ea ratione ipsa labore consectetur velit ipsam ab cum possimus iste fugiat sed cumque quia, temporibus minus. Voluptatibus, ab perferendis?
+               </p>      
+            </div>
+
          </div>
       </div>
 

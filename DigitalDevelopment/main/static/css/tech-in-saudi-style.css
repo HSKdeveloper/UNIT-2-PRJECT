@@ -72,19 +72,21 @@
     border-radius: 20px;
     color: #F5F5F5;
     background-color: #008080;
+    transition: 0.5s;
 }
 
 .tech-page .tech-page-content .card:hover
 {
+    height: 250px;
     color: #00FFFF;
     box-shadow: rgba(0, 255, 255, 0.35) 0px 5px 15px;
 }
-
+/*
 .tech-page .tech-page-content .card:hover span
 {
     color: rgb(0, 255, 255);
 }
-
+*/
 .tech-page .tech-page-content .card h2
 {
     font-size: larger;
