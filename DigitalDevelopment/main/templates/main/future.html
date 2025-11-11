@@ -1,3 +1,106 @@
 {% extends 'main/base.html' %}
+{% load static %}
 
 {% block title %} مستقبل التقنية في المملكة {% endblock %}
+
+<!-- Page Design -->
+{% block content %}
+
+<section class="future-header">
+    <video autoplay muted loop id="future-video">
+        <source src="{% static 'videos/future.mp4' %}" type="video/mp4" >
+         المتصفح لا يدعم تشغيل هذا النوع من الفيديوهات
+    </video>
+    <div class="future-header-title">
+        <h1>
+            مستقبل بلا حدود
+        </h1>
+    </div>
+</section>
+<!-- Cards المواضيع الفرعية-->
+ <div class="future-card-section">
+    <div class="future-container">
+        <div class="future-card" style="--clr:#009688">
+            <div class="imgBx">
+                <video autoplay muted loop id="sparkle-video">
+                    <source src="{% static 'videos/sparkle.mp4' %}" type="video/mp4" >
+                         المتصفح لا يدعم تشغيل هذا النوع من الفيديوهات
+                </video>
+            </div>
+            <div class="future-content">
+                <h2>
+                    اقتصاد البيانات والذكاء الاصطناعي
+                </h2>
+                <p>
+                    تحويل المملكة إلى مركز عالمي للبيانات والذكاء الاصطناعي عبر (سدايا). استراتيجية وطنية تهدف إلى تدريب مليون شاب سعودي وإنشاء أنظمة ذكية لإدارة القطاعات الحيوية
+                </p>
+            </div>
+        </div>
+        <div class="future-card" style="--clr:#ff3e7f">
+            <div class="imgBx">
+                <video autoplay muted loop id="sparkle-video">
+                        <source src="{% static 'videos/sparkle.mp4' %}" type="video/mp4" >
+                             المتصفح لا يدعم تشغيل هذا النوع من الفيديوهات
+                </video>
+            </div>
+            <div class="future-content">
+                <h2>
+                    NEOM والمدن المستقبلية
+                </h2>
+                <p>
+                    تطبيق تقنيات الجيل الخامس، الحوسبة الكمية، والروبوتات في بناء وتشغيل المدن العملاقة مثل نيوم (The Line) والبحر الأحمر. خلق بيئة معيشية تعتمد بالكامل على التقنية النظيفة
+                </p>
+            </div>
+        </div>
+        <div class="future-card" style="--clr:#03a9f4">
+            <div class="imgBx">
+                <video autoplay muted loop id="sparkle-video">
+                    <source src="{% static 'videos/sparkle.mp4' %}" type="video/mp4" >
+                         المتصفح لا يدعم تشغيل هذا النوع من الفيديوهات
+                </video>
+            </div>
+            <div class="future-content">
+                <h2>
+                   رقمنة الخدمات وتحسين جودة الحياة
+                </h2>
+                <p>
+                    تحقيق مستويات نضج متقدمة في الخدمات الحكومية الرقمية. التركيز على الأمن السيبراني والحوسبة السحابية لضمان كفاءة ومرونة البنية التحتية الرقمية في المملكة
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- الأرقام و الإحصائيات  -->
+ <section class="future-numbers" >
+    <div class="achieve">
+        <h2>
+            92 %
+        </h2>
+        <p>
+            مستوى نضج التحول الرقمي للخدمات الحكومية
+        </p>
+    </div>
+    <div class="achieve">
+        <h2>
+            # 1
+        </h2>
+        <p>
+            في النطاق الترددي للإنترنت في المنطقة
+        </p>
+    </div>
+    <div class="achieve">
+        <h2>
+            + 100
+        </h2>
+        <p>
+            مليار دولار استثمارات في مشاريع المدن الذكية
+        </p>
+    </div>
+ </section>
+ <section class="future-end">
+    <h1>
+        يعتمد مستقبل التقنية في السعودية على التوجه الاستراتيجي لرؤية 2030، الذي يركز على التحول الرقمي وزيادة استثماراتها في تقنيات مثل الذكاء الاصطناعي وإنترنت الأشياء. يشمل هذا التحول تطوير البنية التحتية الرقمية، وزيادة الابتكار، ودعم المواهب التقنية المحلية، مع التركيز على مجالات مثل التجارة الإلكترونية، والمدن الذكية، والخدمات المالية الرقمية
+    </h1>
+ </section>
+{% endblock %}
