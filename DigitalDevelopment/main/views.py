@@ -24,9 +24,15 @@ def innovation_view(request : HttpRequest):
     return render( request, "main/innovation.html")
 
 #Impact page
-def impact_view(request : HttpRequest):
+def economeyimpact_view(request : HttpRequest):
 
-    return render( request, "main/impact.html")
+    return render( request, "main/economeyimpact.html")
+
+def cultureImpact_view(request : HttpRequest):
+
+    return render( request, "main/cultureImpact.html")
+
+
 
 #Fields page
 def fields_view(request : HttpRequest):

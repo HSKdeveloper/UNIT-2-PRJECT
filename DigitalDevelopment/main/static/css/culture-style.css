@@ -1,0 +1,70 @@
+.header
+{
+    width: 100%;
+    min-height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/static/images/almuraba.png');
+
+    position: relative;
+    overflow: hidden;
+}
+
+.header #culture-video
+{
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0.1;
+}
+
+.header .content
+{
+    width: 100%;
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .content h1
+{
+    font-weight: 900;
+    font-size: 7rem;
+    color: #fffacd;
+
+    text-shadow: 
+    -1px -1px 0 #000,  /* Black shadow top-left */
+    1px -1px 0 #000,   /* Black shadow top-right */
+    -1px 1px 0 #000,   /* Black shadow bottom-left */
+    1px 1px 0 #000;    /* Black shadow bottom-right */
+}
+
+.short-content
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.short-content h2
+{
+    font-weight: 400;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 2.7rem;
+    text-align: center;
+    color: #000;
+}
+.content
+{
+    width: 100%;
+    min-height: 100vh;
+}
